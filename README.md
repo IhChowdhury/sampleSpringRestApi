@@ -1,1 +1,1 @@
-# sampleSpringRestApi
+# sampleSpringBootRestApi
