@@ -1,4 +1,6 @@
 # sampleSpringBootRestApi
+Java version: Java 8
+
 To run this sample follow this instruction-
   1. Download and install xampp or wamp to create database in local machine
   2. open localhost/phpmyadmin and create database "sample_rest"
@@ -16,3 +18,11 @@ To run this sample follow this instruction-
   **Note: 1. To see data using get request you have to first insert an user<br/>
           2. To run this project you have to first create database using ""sample_rest".<br/>
           3. No need to create any table.
+          
+          
+
+To create executable jar to deplloy an tomcat server-
+  1. Go to project directory and open command window
+  2. Now type mvn clean install, it will create a executable jar file in target folder. if you want to create war file just add <code>\<packaging>war\</packaging></code> in pom.xml
+
+to deploy in tomcat server you can see this site: https://www.baeldung.com/spring-boot-war-tomcat-deploy
